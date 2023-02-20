@@ -36,7 +36,7 @@ import {
   ParameterValidationError,
 } from "./error.js";
 import { JsonObject } from "./safe-json-parse.js";
-import { nodeWebCompat } from "#node-web-compat";
+import { nodeWebCompat } from "./node-web-compat-node.js";
 
 /** Interface for JWT verification properties */
 export interface VerifyProperties {
